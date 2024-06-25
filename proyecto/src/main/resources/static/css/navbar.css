@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Bebas+Neue&family=Permanent+Marker&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Barlow+Condensed&family=Bebas+Neue&family=Permanent+Marker&family=Tilt+Prism&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px;
+}
+
+.logo-img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+}
+
+.nav-link {
+    font-size: 30px;
+    color: white !important;
+    text-decoration: none;    
+    font-family: 'Bahiana', cursive;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.botoncin {
+    font-family: 'Bahiana', cursive;
+    font-size: 30px;
+    padding: 9px 25px;
+    background: #212629;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.botoncin:hover {
+    background-color: #3e4041;
+    color: #ff0e0e;
+    transform: scale(1.1);
+}
+
+.eltitulo {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.color {
+    color: red;
+}
+
+.eltitulo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.botones-container {
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
